@@ -1,0 +1,40 @@
+{
+  "context": {
+    "today": "2026-11-16",
+    "capacity": 20,
+    "rulebook": {
+      "version": "v1",
+      "rules": [
+        {
+          "type": "diploma",
+          "minimum": 1
+        },
+        {
+          "type": "experience",
+          "minimum": 1
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "recognition-1",
+      "owner_id": "person-1",
+      "evidence": [
+        {
+          "type": "diploma",
+          "issuer": "university",
+          "expires": "2030-01-01"
+        },
+        {
+          "type": "experience",
+          "issuer": "employer"
+        }
+      ],
+      "demand": 1,
+      "amount": "0",
+      "effective_from": "2026-11-16",
+      "request_key": "acceptance-1"
+    }
+  ]
+}
